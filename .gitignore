@@ -1,0 +1,11 @@
+# VLC user data and configuration
+extensions/userdata/
+*.xml.bak
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
