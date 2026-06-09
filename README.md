@@ -52,6 +52,17 @@ end
 2. Restart VLC
 3. Scripts load automatically
 
+## Testing
+
+Run the test suite to verify playlist parser logic:
+
+```bash
+cd ~/Library/Application\ Support/org.videolan.vlc/lua
+lua test_playlist.lua
+```
+
+Requires Lua installed (`brew install lua` if needed).
+
 ## Debugging
 
 Enable Lua debug output:
